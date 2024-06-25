@@ -1,0 +1,51 @@
+{
+    "name": "4dg-syntax",
+    "displayName": "4DGolf Syntax",
+    "description": "Syntax highlighting support for 4DGolf.",
+    "version": "0.0.1",
+    "publisher": "chrismzz.",
+    "license": "MIT",
+    "readme": "README.md",
+    "icon": "images/icon.png",
+    "author": {
+        "name": "Chris Mzz."
+    },
+    "galleryBanner": {
+        "color": "#2a802a",
+        "theme": "dark"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "4dg",
+        "4d",
+        "golf",
+        "vscode",
+        "language",
+        "highlight",
+        "syntax"
+    ],
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "contributes": {
+        "languages": [{
+            "id": "4DGolf",
+            "aliases": [
+                "4D Golf",
+                "4D golf",
+                "4d golf"
+            ],
+            "extensions": [
+                ".4dg"
+            ],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "4DGolf",
+            "scopeName": "source.4DGolf",
+            "path": "./syntaxes/4DGolf.tmLanguage.json"
+        }]
+    }
+}

@@ -1,2 +1,2 @@
-# 4dg-syntax
-VSCode syntax highlighting for 4DGolf language.
+# VSCode 4DGolf Syntax
+Syntax highlighting support for 4DGolf.
