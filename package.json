@@ -29,7 +29,87 @@
     "engines": {
         "vscode": "^1.90.0"
     },
+    "editor.semanticHighlighting.enabled": true,
     "contributes": {
+        "configurationDefaults": {
+            "editor.tokenColorCustomizations": {
+                "textMateRules": [
+                    {
+                        "scope": "comment2.4DGolf",
+                        "settings": {
+                            "foreground": "#9f9f9f"
+                        }
+                    },
+                    {
+                        "scope": "levelname.4DGolf",
+                        "settings": {
+                            "foreground": "#ffffff",
+                            "fontStyle": "underline"
+                        }
+                    },
+                    {
+                        "scope": "metadata.4DGolf",
+                        "settings": {
+                            "foreground": "#5f93ec",
+                            "fontStyle": "bold"
+                        }
+                    },
+                    {
+                        "scope": "musictype.4DGolf",
+                        "settings": {
+                            "foreground": "#ffffff",
+                            "fontStyle": "italic"
+                        }
+                    },
+                    {
+                        "scope": "leveltype.4DGolf",
+                        "settings": {
+                            "foreground": "#ffffff",
+                            "fontStyle": "bold"
+                        }
+                    },
+                    {
+                        "scope": "rotation.4DGolf",
+                        "settings": {
+                            "foreground": "#50c94e",
+                            "fontStyle": "italic"
+                        }
+                    },
+                    {
+                        "scope": "translation.4DGolf",
+                        "settings": {
+                            "foreground": "#d08adb",
+                            "fontStyle": "italic"
+                        }
+                    },
+                    {
+                        "scope": "track.4DGolf",
+                        "settings": {
+                            "foreground": "#d79b83"
+                        }
+                    },
+                    {
+                        "scope": "obstacle.4DGolf",
+                        "settings": {
+                            "foreground": "#e86f29"
+                        }
+                    },
+                    {
+                        "scope": "null.4DGolf",
+                        "settings": {
+                            "foreground": "#c4b368"
+                        }
+                    },
+                    {
+                        "scope": "decorator.4DGolf",
+                        "settings": {
+                            "foreground": "#39e6cf"
+                        }
+                    }
+
+                ]
+            }
+        },
         "languages": [{
             "id": "4DGolf",
             "aliases": [
